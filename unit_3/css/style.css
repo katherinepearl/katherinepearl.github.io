@@ -1,0 +1,21 @@
+body {
+  text-align: left;
+  background-color: #f9f9f9;
+}
+h1 {
+	  font-family: Oswald;
+	  font-size: 48px;
+}
+h3 {
+	font-size: 18px;
+}
+h3,p {
+	font-family: Open Sans;
+	font-weight: 300;
+}
+p {
+  font-size: 14px;
+}
+hr {
+	width: 335px
+	}
