@@ -1,11 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+/*@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);*/
+
 body {
   text-align: left;
   background-color: #27d1b7;
 }
 h1 {
-	  font-family: 'Abril Fatface', clarendon-text-pro;
-	  font-size: 60px;
+	 /*font-family: 'Abril Fatface';*/
+	font-family: "lust";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 60px;
 	  color: #f9edf5;
 	  line-height: 0.3em;
 }
