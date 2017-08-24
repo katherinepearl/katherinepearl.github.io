@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Oswald:500,700');
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 text-align: left;
@@ -28,7 +28,7 @@ padding: 4em;
 
 h1 {
 font-family: 'Oswald', sans-serif;
-font-weight: 700;
+font-weight: 500;
 font-style: normal;
 font-size: 60px;
 text-transform: uppercase;
