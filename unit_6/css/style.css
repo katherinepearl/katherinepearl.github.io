@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Oswald:500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald:500,700');
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 text-align: left;
 background-color: #e8e9ea;
 font-family: 'Open Sans', sans-serif;
-font-weight: 400;
+font-weight: 600;
 color: #000000;
 }
 
