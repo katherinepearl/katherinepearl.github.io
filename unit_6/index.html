@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="/path/to/masonry.pkgd.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Katherine Pearl's Portfolio</title>
 </head>
@@ -28,6 +30,11 @@
 	<footer class="copyright">
 		<p>All works copyright Katherine Pearl, 2017</p>
 	</footer>
+<script type="text/javascript" $('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: 200
+});></script>
 </body>
 
 </html>
