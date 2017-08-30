@@ -20,11 +20,7 @@ height: 100%;
 padding-top: 14em;
 }
 
-section {
-float:right;
-width: 73%;
-padding: 4em;
-}
+section {float:right;width: 73%;padding: 1em 0;}
 
 h1 {
 font-family: 'Oswald', sans-serif;
@@ -52,12 +48,15 @@ color: #e8e9ea
 }
 
 footer {
-float:right;
+padding: 4em;
+float: right;
+margin: auto;
 clear: both;
+width: 73%;
+
 }
 
-img {
-width: 33.33%;
-float: left;
+.grid-item, .grid-sizer {width: 33.33%;padding: .5em;}
+.grid-item img {
+	width:100%;
 }
-

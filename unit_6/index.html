@@ -16,12 +16,25 @@
 	</header>
 
 	<section id="images" class="grid">
-		<img src="images/media-change-cbs.jpg" alt="Media Magazine" title="Media Magazine" class="grid-item">
-		<img src="images/littledays.jpg" alt="Little Days" title="Little Days"  class="grid-item">
-		<img src="images/crackedgirlsidebyside.jpg" alt="Cracked Girl" title="Cracked Girl"  class="grid-item">
-		<img src="images/someotherday.jpg" alt="Some Other Day" title="Some Other Day"  class="grid-item">
-		<img src="images/OAOY13-coveraoysapient.jpg" alt="OMMA Magazine" title="OMMA Magazine"  class="grid-item">
-		<img src="images/ommatheater-beforeafter.jpg" alt="OMMA Theater" title="OMMA Theater"  class="grid-item">
+		<div class="grid-sizer"></div>
+		<div class="grid-item">
+		<img src="images/media-change-cbs.jpg" alt="Media Magazine" title="Media Magazine">
+		</div>
+		<div class="grid-item">
+		<img src="images/littledays.jpg" alt="Little Days" title="Little Days" >
+		</div>
+		<div class="grid-item">
+		<img src="images/crackedgirlsidebyside.jpg" alt="Cracked Girl" title="Cracked Girl">
+		</div>
+		<div class="grid-item">
+		<img src="images/someotherday.jpg" alt="Some Other Day" title="Some Other Day" >
+		</div>
+		<div class="grid-item">
+		<img src="images/OAOY13-coveraoysapient.jpg" alt="OMMA Magazine" title="OMMA Magazine" >
+		</div>
+		<div class="grid-item">
+		<img src="images/ommatheater-beforeafter.jpg" alt="OMMA Theater" title="OMMA Theater">
+		</div>
 	</section>
 
 	<footer class="copyright">
@@ -31,8 +44,10 @@
 	<script type="text/javascript"> 
 		$('.grid').masonry({
 		  // options
+		  columnWidth: '.grid-sizer',
 		  itemSelector: '.grid-item',
-		  columnWidth: 200
+		  percentPosition:true,
+		  horizontalOrder:true
 		});
 	</script>
 
