@@ -40,15 +40,20 @@
 	<footer class="copyright">
 		<p>All works copyright Katherine Pearl, 2017</p>
 	</footer>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 	<script src="masonry.pkgd.min.js"></script>
 	<script type="text/javascript"> 
-		$('.grid').masonry({
-		  // options
-		  columnWidth: '.grid-sizer',
+		
+		var $grid = $('.grid').imagesLoaded( function() {
+  // init Masonry after all images have loaded
+  $grid.masonry({
+    // options...
+    columnWidth: '.grid-sizer',
 		  itemSelector: '.grid-item',
 		  percentPosition:true,
 		  horizontalOrder:false
-		});
+  });
+});
 	</script>
 
 </body>
