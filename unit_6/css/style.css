@@ -15,11 +15,11 @@ padding: 2em;
 position: fixed;
 width: 27%;
 height: 100%;
-width: 395px;
 }
 
 #headline {
 padding-top: 23em;
+width: 200px;
 }
 
 section {float:right;width: 73%;padding: 1em 0;}
@@ -56,10 +56,11 @@ color: #e8e9ea
 
 footer {
 padding: 4em;
-float: right;
+float: none;
 margin: auto;
 clear: both;
 width: 73%;
+text-align: center;
 
 }
 
@@ -72,8 +73,12 @@ width: 73%;
 	body {
 	font-size: 10px;
 }
+	h1 {
+	font-size: 4em;
+	}
+
 	h2, h3 {
-	line-height: 1.5em;
+	line-height: 2em;
 }
 	
 	#headline {
@@ -96,12 +101,14 @@ width: 73%;
 	padding: 3em 0;
 	}
 	
-	#headline, h2, h3 {
+	#headline {
 	padding-top: 2em;
 	width: 100%;	
-	line-height: 1.5em;
-
 }
+ h3 {
+	line-height: 1em;
+}
+
 .grid-item, .grid-sizer {width: 50%;padding: .5em;}
 .grid-item img {
 	width: 100%;
