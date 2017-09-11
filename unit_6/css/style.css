@@ -15,6 +15,7 @@ padding: 2em;
 position: fixed;
 width: 27%;
 height: 100%;
+width: 395px;
 }
 
 #headline {
@@ -69,14 +70,12 @@ width: 73%;
 
 @media only screen and (max-width: 1060px) {
 	body {
-	font-size: 8px;
+	font-size: 10px;
 }
-	h2 {
+	h2, h3 {
 	line-height: 1.5em;
 }
-	h3 {
-	line-height: 1.5em;
-}
+	
 	#headline {
 	padding-top: 32em;
 }
@@ -86,9 +85,9 @@ width: 73%;
 	header {
 	background-color: #27d1b7;
 	padding: 2em;
-	position: fixed;
 	width: 100%;
-	height: 27%;
+	height: 200px;
+	position: initial;
 }
 #section {
 	clear: both; 
@@ -97,7 +96,15 @@ width: 73%;
 	padding: 3em 0;
 	}
 	
-	#headline {
+	#headline, h2, h3 {
 	padding-top: 2em;
+	width: 900px;	
+	line-height: 1.5em;
+
+}
+.grid-item, .grid-sizer {width: 50%;padding: .5em;}
+.grid-item img {
+	width: 100%;
+}
 }
 }
