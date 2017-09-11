@@ -64,11 +64,40 @@ width: 73%;
 
 .grid-item, .grid-sizer {width: 33.33%;padding: .5em;}
 .grid-item img {
-	width:100%;
+	width: 100%;
 }
 
-@media screen only and (max-width: 1060px) {
+@media only screen and (max-width: 1060px) {
 	body {
 	font-size: 8px;
+}
+	h2 {
+	line-height: 1.5em;
+}
+	h3 {
+	line-height: 1.5em;
+}
+	#headline {
+	padding-top: 32em;
+}
+}
+
+@media only screen and (max-width: 840px) {
+	header {
+	background-color: #27d1b7;
+	padding: 2em;
+	position: fixed;
+	width: 100%;
+	height: 27%;
+}
+#section {
+	clear: both; 
+	float: none; 
+	width: 100%; 
+	padding: 3em 0;
+	}
+	
+	#headline {
+	padding-top: 2em;
 }
 }
