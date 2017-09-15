@@ -82,11 +82,14 @@ text-align: center;
 }
 	
 	#headline {
-	padding-top: 32em;
+	padding-top: 24em;
 }
 }
 
 @media only screen and (max-width: 840px) {
+	
+	section {float:right;width: 100%;padding: 1em 0;}
+
 	header {
 	background-color: #27d1b7;
 	padding: 2em;
